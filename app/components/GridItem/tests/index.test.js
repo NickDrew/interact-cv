@@ -1,11 +1,3 @@
-/**
- *
- * Tests for GridItem
- *
- * @see https://github.com/react-boilerplate/react-boilerplate/tree/master/docs/testing
- *
- */
-
 import React from 'react';
 import { render, getByTestId } from 'react-testing-library';
 import 'jest-dom/extend-expect'; // add some helpful assertions
@@ -43,11 +35,6 @@ describe('<GridItem />', () => {
     expect(getByTestId(container, id)).toHaveStyle(`grid-area: ${area}`);
   });
 
-  /**
-   * Unskip this test to use it
-   *
-   * @see {@link https://jestjs.io/docs/en/api#testskipname-fn}
-   */
   it('Should render and match the snapshot', () => {
     const col = '1/5';
     const row = '3';
