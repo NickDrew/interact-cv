@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridItem /> Should render and match the snapshot 1`] = `
+<div
+  class="GridItem-sc-1m27xx7-0 kPRoTX"
+/>
+`;
